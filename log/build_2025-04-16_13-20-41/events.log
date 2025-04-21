@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000542] (skyforge) JobQueued: {'identifier': 'skyforge', 'dependencies': OrderedDict()}
+[0.000595] (skyforge) JobStarted: {'identifier': 'skyforge'}
+[0.099835] (-) TimerEvent: {}
+[0.200079] (-) TimerEvent: {}
+[0.300314] (-) TimerEvent: {}
+[0.400542] (-) TimerEvent: {}
+[0.500774] (-) TimerEvent: {}
+[0.600996] (-) TimerEvent: {}
+[0.644604] (skyforge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/skyforge', 'build', '--build-base', '/home/dwidjaja/ros2_ws/build/skyforge/build', 'install', '--record', '/home/dwidjaja/ros2_ws/build/skyforge/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dwidjaja/ros2_ws/src/skyforge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dwidjaja', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dwidjaja', 'OLDPWD': '/home/dwidjaja/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1651', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1006/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dwidjaja/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dwidjaja', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dwidjaja', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros1:@/tmp/.ICE-unix/1621,unix/ros1:/tmp/.ICE-unix/1621', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36e12d82_6a93_44e4_bbcb_b7740f835f5e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1006', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1006/.mutter-Xwaylandauth.3ELQ42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1006/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dwidjaja/ros2_ws/install/skyforge:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dwidjaja/ros2_ws/build/skyforge', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dwidjaja/ros2_ws/build/skyforge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages:/home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.701119] (-) TimerEvent: {}
+[0.801360] (-) TimerEvent: {}
+[0.901594] (-) TimerEvent: {}
+[0.908590] (skyforge) StdoutLine: {'line': b'running egg_info\n'}
+[0.908947] (skyforge) StdoutLine: {'line': b'creating ../../build/skyforge/skyforge.egg-info\n'}
+[0.909168] (skyforge) StdoutLine: {'line': b'writing ../../build/skyforge/skyforge.egg-info/PKG-INFO\n'}
+[0.909326] (skyforge) StdoutLine: {'line': b'writing dependency_links to ../../build/skyforge/skyforge.egg-info/dependency_links.txt\n'}
+[0.909502] (skyforge) StdoutLine: {'line': b'writing entry points to ../../build/skyforge/skyforge.egg-info/entry_points.txt\n'}
+[0.909712] (skyforge) StdoutLine: {'line': b'writing requirements to ../../build/skyforge/skyforge.egg-info/requires.txt\n'}
+[0.909882] (skyforge) StdoutLine: {'line': b'writing top-level names to ../../build/skyforge/skyforge.egg-info/top_level.txt\n'}
+[0.909981] (skyforge) StdoutLine: {'line': b"writing manifest file '../../build/skyforge/skyforge.egg-info/SOURCES.txt'\n"}
+[0.911222] (skyforge) StdoutLine: {'line': b"reading manifest file '../../build/skyforge/skyforge.egg-info/SOURCES.txt'\n"}
+[0.911897] (skyforge) StdoutLine: {'line': b"writing manifest file '../../build/skyforge/skyforge.egg-info/SOURCES.txt'\n"}
+[0.912084] (skyforge) StdoutLine: {'line': b'running build\n'}
+[0.912366] (skyforge) StdoutLine: {'line': b'running build_py\n'}
+[0.912471] (skyforge) StdoutLine: {'line': b'creating /home/dwidjaja/ros2_ws/build/skyforge/build\n'}
+[0.912548] (skyforge) StdoutLine: {'line': b'creating /home/dwidjaja/ros2_ws/build/skyforge/build/lib\n'}
+[0.912623] (skyforge) StdoutLine: {'line': b'creating /home/dwidjaja/ros2_ws/build/skyforge/build/lib/skyforge\n'}
+[0.912773] (skyforge) StdoutLine: {'line': b'copying skyforge/__init__.py -> /home/dwidjaja/ros2_ws/build/skyforge/build/lib/skyforge\n'}
+[0.912876] (skyforge) StdoutLine: {'line': b'copying skyforge/my_first_node.py -> /home/dwidjaja/ros2_ws/build/skyforge/build/lib/skyforge\n'}
+[0.912940] (skyforge) StdoutLine: {'line': b'running install\n'}
+[0.913036] (skyforge) StdoutLine: {'line': b'running install_lib\n'}
+[0.913746] (skyforge) StdoutLine: {'line': b'creating /home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages/skyforge\n'}
+[0.913895] (skyforge) StdoutLine: {'line': b'copying /home/dwidjaja/ros2_ws/build/skyforge/build/lib/skyforge/__init__.py -> /home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages/skyforge\n'}
+[0.913976] (skyforge) StdoutLine: {'line': b'copying /home/dwidjaja/ros2_ws/build/skyforge/build/lib/skyforge/my_first_node.py -> /home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages/skyforge\n'}
+[0.914401] (skyforge) StdoutLine: {'line': b'byte-compiling /home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages/skyforge/__init__.py to __init__.cpython-310.pyc\n'}
+[0.914665] (skyforge) StdoutLine: {'line': b'byte-compiling /home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages/skyforge/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[0.914959] (skyforge) StdoutLine: {'line': b'running install_data\n'}
+[0.915126] (skyforge) StdoutLine: {'line': b'creating /home/dwidjaja/ros2_ws/install/skyforge/share/ament_index\n'}
+[0.915193] (skyforge) StdoutLine: {'line': b'creating /home/dwidjaja/ros2_ws/install/skyforge/share/ament_index/resource_index\n'}
+[0.915335] (skyforge) StdoutLine: {'line': b'creating /home/dwidjaja/ros2_ws/install/skyforge/share/ament_index/resource_index/packages\n'}
+[0.915472] (skyforge) StdoutLine: {'line': b'copying resource/skyforge -> /home/dwidjaja/ros2_ws/install/skyforge/share/ament_index/resource_index/packages\n'}
+[0.915537] (skyforge) StdoutLine: {'line': b'copying package.xml -> /home/dwidjaja/ros2_ws/install/skyforge/share/skyforge\n'}
+[0.915598] (skyforge) StdoutLine: {'line': b'creating /home/dwidjaja/ros2_ws/install/skyforge/share/skyforge/launch\n'}
+[0.915655] (skyforge) StdoutLine: {'line': b'copying launch/view_robot.launch.py -> /home/dwidjaja/ros2_ws/install/skyforge/share/skyforge/launch\n'}
+[0.915732] (skyforge) StdoutLine: {'line': b'creating /home/dwidjaja/ros2_ws/install/skyforge/share/skyforge/urdf\n'}
+[0.915810] (skyforge) StdoutLine: {'line': b'copying urdf/skyforge_robot.urdf.xacro -> /home/dwidjaja/ros2_ws/install/skyforge/share/skyforge/urdf\n'}
+[0.915871] (skyforge) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.917424] (skyforge) StdoutLine: {'line': b'Copying ../../build/skyforge/skyforge.egg-info to /home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages/skyforge-0.0.0-py3.10.egg-info\n'}
+[0.918297] (skyforge) StdoutLine: {'line': b'running install_scripts\n'}
+[0.936775] (skyforge) StdoutLine: {'line': b'Installing test script to /home/dwidjaja/ros2_ws/install/skyforge/lib/skyforge\n'}
+[0.937043] (skyforge) StdoutLine: {'line': b"writing list of installed files to '/home/dwidjaja/ros2_ws/build/skyforge/install.log'\n"}
+[0.958409] (skyforge) CommandEnded: {'returncode': 0}
+[0.967743] (skyforge) JobEnded: {'identifier': 'skyforge', 'rc': 0}
+[0.968267] (-) EventReactorShutdown: {}

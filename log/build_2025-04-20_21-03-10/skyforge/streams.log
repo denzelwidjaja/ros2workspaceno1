@@ -1,0 +1,23 @@
+[0.748s] Invoking command in '/home/dwidjaja/ros2_ws/src/skyforge': PYTHONPATH=/home/dwidjaja/ros2_ws/build/skyforge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skyforge build --build-base /home/dwidjaja/ros2_ws/build/skyforge/build install --record /home/dwidjaja/ros2_ws/build/skyforge/install.log --single-version-externally-managed install_data
+[1.002s] running egg_info
+[1.003s] writing ../../build/skyforge/skyforge.egg-info/PKG-INFO
+[1.003s] writing dependency_links to ../../build/skyforge/skyforge.egg-info/dependency_links.txt
+[1.003s] writing entry points to ../../build/skyforge/skyforge.egg-info/entry_points.txt
+[1.003s] writing requirements to ../../build/skyforge/skyforge.egg-info/requires.txt
+[1.003s] writing top-level names to ../../build/skyforge/skyforge.egg-info/top_level.txt
+[1.005s] reading manifest file '../../build/skyforge/skyforge.egg-info/SOURCES.txt'
+[1.010s] writing manifest file '../../build/skyforge/skyforge.egg-info/SOURCES.txt'
+[1.010s] running build
+[1.010s] running build_py
+[1.010s] running install
+[1.010s] running install_lib
+[1.012s] running install_data
+[1.012s] copying launch/view_robot.launch.py -> /home/dwidjaja/ros2_ws/install/skyforge/share/skyforge/launch
+[1.012s] copying urdf/skyforge_robot.urdf.xacro -> /home/dwidjaja/ros2_ws/install/skyforge/share/skyforge/urdf
+[1.012s] running install_egg_info
+[1.014s] removing '/home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages/skyforge-0.0.0-py3.10.egg-info' (and everything under it)
+[1.014s] Copying ../../build/skyforge/skyforge.egg-info to /home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages/skyforge-0.0.0-py3.10.egg-info
+[1.015s] running install_scripts
+[1.033s] Installing test script to /home/dwidjaja/ros2_ws/install/skyforge/lib/skyforge
+[1.034s] writing list of installed files to '/home/dwidjaja/ros2_ws/build/skyforge/install.log'
+[1.057s] Invoked command in '/home/dwidjaja/ros2_ws/src/skyforge' returned '0': PYTHONPATH=/home/dwidjaja/ros2_ws/build/skyforge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwidjaja/ros2_ws/install/skyforge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skyforge build --build-base /home/dwidjaja/ros2_ws/build/skyforge/build install --record /home/dwidjaja/ros2_ws/build/skyforge/install.log --single-version-externally-managed install_data
