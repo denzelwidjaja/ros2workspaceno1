@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="simple_arm">
+
+  <!-- Parameters -->
+  <xacro:property name="link_radius" value="0.05"/>
+  <xacro:property name="link_length" value="1.0"/>
+  <xacro:property name="box_size" value="0.5 0.1 0.1"/>
+
+  <!-- Macros -->
+  <xacro:macro name="cylinder_link" params="name">
+    <link name="${name}">
+      <visual>
+        <geometry>
+          <cylinder radius="${link_radius}" length="${link_length}"/>
+        </geometry>
+      </visual>
+    </link>
+  </xacro:macro>
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="${box_size}"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Using macro -->
+  <xacro:cylinder_link name="link1"/>
+
+  <!-- Joint -->
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0.25 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57" upper="1.57" effort="10" velocity="1"/>
+  </joint>
+
+</robot>
